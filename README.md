@@ -8,7 +8,7 @@ Prerequisites
 
 Usage
 -----
-* python run_SGIL.py --dataset douban   --runid 4envs+0.15penalty+adv_3bs  --num_envs 4 --penalty_coff 0.15 --adv_bs 3
-* python run_SGIL.py --dataset yelp     --runid 4envs+0.05penalty+adv_3bs  --num_envs 4 --penalty_coff 0.05 --adv_bs 3
-* python run_SGIL.py --dataset epinions --runid 4envs+0.10penalty+adv_20bs --num_envs 4 --penalty_coff 0.10 --adv_bs 20
+* python run_SGIL.py --dataset douban   --runid 4envs+0.15penalty+adv_3bs  --penalty_coff 0.15 --adv_bs 3
+* python run_SGIL.py --dataset yelp     --runid 4envs+0.05penalty+adv_3bs  --penalty_coff 0.05 --adv_bs 3
+* python run_SGIL.py --dataset epinions --runid 4envs+0.10penalty+adv_20bs --penalty_coff 0.10 --adv_bs 20
 

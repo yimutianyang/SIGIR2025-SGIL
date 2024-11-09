@@ -22,10 +22,6 @@ class Base_CF(object):
             # self.item_latent_emb = tf.Variable(self.xa_initializer([self.num_item, self.latent_dim]), name='item_latent_emb')
             self.user_latent_emb = tf.Variable(self.nor_initializer([self.num_user, self.latent_dim]), name='user_latent_emb')
             self.item_latent_emb = tf.Variable(self.nor_initializer([self.num_item, self.latent_dim]), name='item_latent_emb')
-            # self.user_latent_emb = tf.Variable(initial_value=self.pre_emb[:args.num_user],
-            #                                    trainable=True, name='user_latent_emb', dtype=tf.float32)
-            # self.item_latent_emb = tf.Variable(initial_value=self.pre_emb[args.num_user:],
-            #                                    trainable=True, name='item_latent_emb', dtype=tf.float32)
 
         with tf.name_scope('input_data'):
             self.users = tf.compat.v1.placeholder(tf.int32, [None])

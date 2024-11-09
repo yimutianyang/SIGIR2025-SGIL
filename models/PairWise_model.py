@@ -16,11 +16,6 @@ class Base_CF(object):
         self.batch_size = args.batch_size
         self.nor_initializer = tf.random_normal_initializer(stddev=0.01)
         # self.xa_initializer = tf.contrib.layers.xavier_initializer()
-        # pre_emb = np.load('/home/yangyonghui/myworks/IBRec/run/node2vec/node_embeddings.npy')
-        # self.pre_emb = np.load('/home/yangyonghui/myworks/GHCF-main/Data/Taobao/node_embeddings3.npy')
-        # self.pre_emb = np.load('/home/yangyonghui/myworks/GHCF-main/Data/Beibei/node_embeddings_0.005.npy')
-        self.pre_emb = np.load('/home/yangyonghui/myworks/GHCF-main/Data/tmall31/node_embeddings_all_0.005.npy')
-        # pdb.set_trace()
 
         with tf.name_scope('create_variables'):
             # self.user_latent_emb = tf.Variable(self.xa_initializer([self.num_user, self.latent_dim]), name='user_latent_emb')

@@ -1,6 +1,6 @@
 Overview
 --------
-Implementation of SIGIR'25 accepted paper "Invariance matters: Empowering Social Recommendation via Graph Invariant Learning". 
+Implementation of paper "Invariance matters: Empowering Social Recommendation via Graph Invariant Learning". 
 
 <img src="https://github.com/yimutianyang/SIGIR2025-SGIL/blob/main/framework.jpg" width=90%>
 
